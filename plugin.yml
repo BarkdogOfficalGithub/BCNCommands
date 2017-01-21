@@ -1,0 +1,12 @@
+name: BCNCommands
+main: me.xBarkPuppy1.BCNCommands.Main
+version: 1.0
+commands:
+   staff:
+      description: Goes to the warp named staff.
+   pvp:
+      description: Goes to the warp named pvp. 
+   survival:
+      description: Goes to the Server Survival. 
+   lobby:
+      description: Goes to the Lobby.                                                                                                                   
