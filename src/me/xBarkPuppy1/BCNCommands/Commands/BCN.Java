@@ -7,13 +7,13 @@
  +
  +import net.md_5.bungee.api.ChatColor;
  +
- +public class BFInfo implements CommandExecutor{
+ +public class BCNInfo implements CommandExecutor{
  +	
  +    public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
  +    	Player player = (Player) sender;
  +    	if(commandLabel.equalsIgnoreCase("bfinfo")){
  +    			player.sendMessage(ChatColor.AQUA + "BarkCraftNetwork's Root Superusers are xBarkpuppy1 and CPacket.");
- +    			player.sendMessage(ChatColor.AQUA + "BarkFreedom's Lead-Developer is ");
+ +    			player.sendMessage(ChatColor.AQUA + "BarkCraftNetwork's Lead-Developer is ");
  +    			player.sendMessage(ChatColor.AQUA + "Forums page: ");
  +    			player.sendMessage(ChatColor.AQUA + "GitHub: https://github.com/BarkCraftNetwork");
  +    	    return false;
