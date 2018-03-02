@@ -12,10 +12,10 @@ package me.xBarkPuppy1.BCNCommands.Commands;
      public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args){
      	Player player = (Player) sender;
      	if(commandLabel.equalsIgnoreCase("bfinfo")){
-     			player.sendMessage(ChatColor.AQUA + "BarkCraftNetwork's Root Superusers are xBarkpuppy1 and CPacket.");
-     			player.sendMessage(ChatColor.AQUA + "BarkCraftNetwork's Lead-Developer is ");
+     			player.sendMessage(ChatColor.AQUA + "BarkCraftNetwork's Root Superusers are xBarkpuppy1/xdog25 and CPacket/M1CE.");
+     			player.sendMessage(ChatColor.AQUA + "BarkCraftNetwork's Lead-Developer is  M1CE/CPACKET");
      			player.sendMessage(ChatColor.AQUA + "Forums page: ");
-     			player.sendMessage(ChatColor.AQUA + "GitHub: https://github.com/BarkCraftNetwork");
+     			player.sendMessage(ChatColor.AQUA + "GitHub: https://github.com/BarkdogOfficalGithub");
      	    return false;
         }
       return false;
